@@ -1,0 +1,54 @@
+body{
+ 
+    background-color: antiquewhite;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: antiquewhite;
+    padding: 15px;
+}
+.nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.menu ul li {
+    display: inline;
+    margin: right 20px; ;
+}
+.menu ul li a {
+    color: blue;
+    text-decoration: none;
+}
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+main{
+    padding: 20px;
+}
+.section {
+    margin-bottom: 20px;
+}
+h1,h2,h3 {
+    color: brown;
+}
+img {
+    margin: right 10px;
+    border: left 8px;
+    border-color: blueviolet;
+}
+footer{
+    background-color: rgb(167,98,144);
+    color: black;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    width: 100%;
+}
+social-lines footer{
+    margin-top: 10px;
+    text-decoration: none;
+    margin: 0 10px;
+}
